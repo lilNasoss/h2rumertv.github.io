@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.styled-button {
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    box-shadow: 0 6px 20px rgba(255, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.styled-button:hover {
+    transform: scale(1.1);
+}
